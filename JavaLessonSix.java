@@ -65,7 +65,7 @@ public class JavaLessonSix {
 
         catch (InputMismatchException e){
 
-	        userInput.next(); // Skips the last user input and waits for the next
+	        userInput.next(); // Catches the last user input and waits for the next (enter key - the rule)
 
 	        System.out.println("That isn't a whole number");
 			
