@@ -67,7 +67,8 @@ public class JavaLessonSix {
 
 	        userInput.next(); // Skips the last user input and waits for the next
 
-	        System.out.print("That isn't a whole number");
+	        System.out.println("That isn't a whole number");
+			
 
 	        return 0;
 
